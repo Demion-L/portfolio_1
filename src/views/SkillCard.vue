@@ -3,21 +3,22 @@
     <div class="box">
       <span></span>
       <div class="content">
-        <h2>Card One</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
-          voluptatibus fuga quisquam reprehenderit asperiores reiciendis optio,
-          possimus suscipit obcaecati pariatur maiores ipsa veniam consectetur
-          laborum laboriosam. Expedita aspernatur voluptas ipsum.
-        </p>
-        <a href="#">Read more</a>
+        <h2>{{ title }}</h2>
+        <ul>
+          <li v-for="skill in skills" :key="skill">{{ skill }}</li>
+        </ul>
       </div>
     </div>
   </div>
 </template>
 
 <script>
-export default {};
+export default {
+  props: {
+    title: String,
+    skills: Array,
+  },
+};
 </script>
 
 <style lang="scss" scoped>
@@ -105,7 +106,7 @@ export default {};
     opacity: 0;
     transition: 0.5s;
     animation: animate 2s ease-in-out infinite;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0, 0.05);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
   }
 
   &:hover span::before {
@@ -129,7 +130,7 @@ export default {};
     opacity: 0;
     transition: 0.5s;
     animation: animate 2s ease-in-out infinite;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0, 0.05);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
     animation-delay: -1s;
   }
 
