@@ -55,10 +55,10 @@ img {
       rgba(3, 123, 148, 1) 100%
     );
     border-radius: 5px;
-    border-top: 2px solid rgb(245, 245, 240);
-    border-left: 2px solid rgb(245, 245, 240);
-    border-bottom: 2px solid rgba(47, 59, 49, 0.404);
-    border-right: 2px solid rgba(47, 59, 49, 0.404);
+    border-top: 1px solid rgb(245, 245, 240);
+    border-left: 1px solid rgb(245, 245, 240);
+    border-bottom: 1px solid rgba(47, 59, 49, 0.782);
+    border-right: 1px solid rgba(47, 59, 49, 0.719);
   }
 
   li {

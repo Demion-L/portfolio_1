@@ -97,34 +97,21 @@ export default {
 
 h1 {
   margin-bottom: 1rem;
-  position: relative;
   font-family: "Poppins", sans-serif;
   font-size: 2rem;
-
-  &:hover::before {
-    content: attr(data-text);
-    position: absolute;
-    top: 0;
-    left: 0;
-    color: #313f97;
-  }
-  &:hover::after {
-    content: attr(data-text);
-    position: absolute;
-    color: transparent;
-    top: 110px;
-    left: 10px;
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-stroke: 1px #ec2225;
-  }
 }
 .about-me {
   padding: 1rem;
-  position: relative;
 
   &__info {
     text-align: left;
+    padding: 0.5rem;
+    border-top: 1px solid rgb(245, 245, 240);
+    border-left: 1px solid rgb(245, 245, 240);
+    border-bottom: 1px solid rgba(47, 59, 49, 0.538);
+    border-right: 1px solid rgba(47, 59, 49, 0.536);
+    border-radius: 5px;
+    backdrop-filter: blur(3px);
   }
 }
 </style>

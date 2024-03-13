@@ -6,14 +6,17 @@
       <p class="profile-occupation">Software Developer</p>
     </div>
     <social-links />
+    <my-contacts />
   </div>
 </template>
 
 <script>
 import SocialLinks from "../views/SocialLinks.vue";
+import MyContacts from "../views/MyContacts.vue";
 export default {
   components: {
     SocialLinks,
+    MyContacts,
   },
 };
 </script>
@@ -44,5 +47,9 @@ export default {
   border-radius: 5px;
   backdrop-filter: blur(5px);
   margin: 1rem 2rem;
+
+  p {
+    padding: 0.5rem;
+  }
 }
 </style>
