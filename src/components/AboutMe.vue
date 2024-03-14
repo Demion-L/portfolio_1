@@ -13,7 +13,7 @@
         <br />
         <br />
         Recently, I completed a project using Next.js to build an application
-        for.
+        for ???????????????.
         <br />
         <br />
         Previously, I worked as a Front-End Developer at WithSecure, where I
@@ -60,10 +60,21 @@ export default {
   data() {
     return {
       skills: [
-        { type: "Frontend", items: ["Vue.js", "React", "HTML", "CSS"] },
+        {
+          type: "Frontend",
+          items: ["Vue.js", "Vuex", "React", "Redux", "Typescript", "MUI"],
+        },
         {
           type: "Backend",
-          items: ["Node.js", "Express", "Databases"],
+          items: ["Node.js", "Express"],
+        },
+        {
+          type: "Databases",
+          items: ["MySQL", "MongoDB", "PostsgreSQL"],
+        },
+        {
+          type: "Unit testing",
+          items: ["Jest", "Mocha", "Chai"],
         },
         {
           type: "Soft Skills",
@@ -78,12 +89,12 @@ export default {
 <style lang="scss" scoped>
 .container {
   border: 1px solid #fff;
-  background-color: rgba(116, 214, 241, 0.83);
+  background-color: rgba(8, 85, 106, 0.83);
   width: 70%;
   display: flex;
   flex-direction: column;
   margin: 0.5rem;
-  color: rgb(4, 9, 102);
+  color: rgb(208, 209, 232);
   border-radius: 4px;
   font-size: 1.1rem;
 }
@@ -105,11 +116,14 @@ h1 {
 
   &__info {
     text-align: left;
+    font-size: 1.1em;
+    letter-spacing: 1.4px;
+    line-height: 1.2;
     padding: 0.5rem;
     border-top: 1px solid rgb(245, 245, 240);
     border-left: 1px solid rgb(245, 245, 240);
-    border-bottom: 1px solid rgba(47, 59, 49, 0.538);
-    border-right: 1px solid rgba(47, 59, 49, 0.536);
+    border-bottom: 1px solid rgba(18, 19, 18, 0.538);
+    border-right: 1px solid rgba(18, 19, 18, 0.538);
     border-radius: 5px;
     backdrop-filter: blur(3px);
   }

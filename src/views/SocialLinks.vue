@@ -2,13 +2,16 @@
   <div class="social-links">
     <ul>
       <li>
-        <a href="" data-replace="Github">
+        <a href="https://github.com/Demion-L" data-replace="Github">
           <img src="../assets/social media/github-94.png" alt="github logo" />
           <span>Github</span>
         </a>
       </li>
       <li>
-        <a href="" data-replace="Linkedin">
+        <a
+          href="https://www.linkedin.com/in/dmitriy-latysh/"
+          data-replace="Linkedin"
+        >
           <img
             src="../assets/social media/linkedin-logo-64.png"
             alt="linkedin logo"
@@ -17,7 +20,10 @@
         </a>
       </li>
       <li>
-        <a href="" data-replace="Facebook">
+        <a
+          href="https://www.facebook.com/profile.php?id=100087912827059"
+          data-replace="Facebook"
+        >
           <img
             src="../assets/social media/facebook-circled-64.png"
             alt="fb logo"

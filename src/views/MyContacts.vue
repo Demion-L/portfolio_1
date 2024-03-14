@@ -1,5 +1,5 @@
 <template lang="">
-  <div class="container">
+  <div class="contacts-container">
     <ul>
       <li>Telephone: <a href="tel:+358 41 793 68 35">+358 41 793 68 35</a></li>
       <li>Email: <a href="mailto:pradovd4@gmail.com">pradovd4@gmail.com</a></li>
@@ -10,8 +10,7 @@
 export default {};
 </script>
 <style lang="scss" scoped>
-.container {
-  width: 200px;
+.contacts-container {
   margin: 1rem 2rem;
   background: linear-gradient(
     126deg,
@@ -28,7 +27,7 @@ export default {};
   li {
     font-size: 1.1rem;
     font-weight: bold;
-    padding: 0.3rem 0.5rem;
+    padding: 0.5rem;
   }
 }
 </style>

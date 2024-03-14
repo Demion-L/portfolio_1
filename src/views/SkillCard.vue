@@ -69,16 +69,6 @@ export default {
 
   &:nth-child(1)::before,
   &:nth-child(1)::after {
-    background: linear-gradient(315deg, #ffbc00, #ff0058);
-  }
-
-  &:nth-child(2)::before,
-  &:nth-child(2)::after {
-    background: linear-gradient(315deg, #17bbcd, #ff0058);
-  }
-
-  &:nth-child(3)::before,
-  &:nth-child(3)::after {
     background: linear-gradient(315deg, #2ac60e, #1985e4);
   }
 
@@ -179,6 +169,14 @@ export default {
     font-size: 1.1em;
     margin-bottom: 10px;
     line-height: 1.4em;
+  }
+
+  ul {
+    list-style-type: none;
+
+    li {
+      margin-bottom: 0.3rem;
+    }
   }
 }
 </style>

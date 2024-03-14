@@ -3,7 +3,7 @@
     <img class="my-photo" src="../assets/my photo/3.jpg" alt="my photo" />
     <div class="profile">
       <h1 class="profile-name">Dmytro Latysh</h1>
-      <p class="profile-occupation">Software Developer</p>
+      <p class="profile-occupation">Full-Stack Developer</p>
     </div>
     <social-links />
     <my-contacts />
