@@ -12,8 +12,9 @@
         user-friendly and visually appealing interfaces.
         <br />
         <br />
-        Recently, I completed a project using Next.js to build an application
-        for ???????????????.
+        Recently, I completed a project using React.js, Typescript and Node.js
+        for creating CLI to launch an interactive development environment for
+        writing and documenting code.
         <br />
         <br />
         Previously, I worked as a Front-End Developer at WithSecure, where I
@@ -39,22 +40,22 @@
     </div>
 
     <div class="button-container">
-      <div class="projects-btn">
+      <!-- <div class="projects-btn">
         <a href="">My projects</a>
-      </div>
-      <div>
-        <a href="">My Resume</a>
-      </div>
+      </div> -->
+      <link-button :link="link" :content="content" />
     </div>
   </div>
 </template>
 
 <script>
-import SkillCard from "../views/SkillCard.vue";
+import SkillCard from "@/views/SkillCard.vue";
+import LinkButton from "@/views/LinkButton.vue";
 
 export default {
   components: {
     SkillCard,
+    LinkButton,
   },
 
   data() {
@@ -81,6 +82,8 @@ export default {
           items: ["Communication", "Teamwork", "Problem-solving"],
         },
       ],
+      link: "https://drive.google.com/file/d/1i5OnCmcvHXyJRTWWLrWjcT-gXcdnOE42/view?usp=sharing",
+      content: "My CV",
     };
   },
 };

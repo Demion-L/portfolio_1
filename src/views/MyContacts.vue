@@ -28,6 +28,7 @@ export default {};
     font-size: 1.1rem;
     font-weight: bold;
     padding: 0.5rem;
+    word-break: break-all;
   }
 }
 </style>

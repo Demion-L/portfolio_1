@@ -6,8 +6,8 @@
 </template>
 
 <script>
-import PreviewBlock from "./PreviewBlock.vue";
-import AboutMe from "./AboutMe.vue";
+import PreviewBlock from "@/components/PreviewBlock.vue";
+import AboutMe from "@/components/AboutMe.vue";
 
 export default {
   components: {
@@ -21,5 +21,14 @@ export default {
 .main-container {
   display: flex;
   background: url("../assets/main\ bg/code.jpg");
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+  .main-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
 </style>

@@ -52,4 +52,24 @@ export default {
     padding: 0.5rem;
   }
 }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 600px) {
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+  .container {
+    margin-bottom: 1rem;
+    padding: 1rem 2rem;
+    width: 100%;
+    border: 1px solid rgb(218, 212, 212);
+  }
+
+  .my-photo {
+    border-radius: 50%;
+  }
+}
 </style>
